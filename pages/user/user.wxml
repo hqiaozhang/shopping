@@ -1,0 +1,42 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+       <image bindtap="bindViewTap" class="userinfo_avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <view class="userinfo_right">
+        <view class="userinfo_nickname">{{userInfo.nickName}}</view>
+        <view class="userinfo_accounts">帐号：12345678</view>
+      </view>
+      <view class="setting">
+        <image src="../../images/user/setting.png"></image>
+      </view>
+  </view>
+  <!-- 我的功能 -->
+  <view class="my_function">
+   <view class="title_h3">我的功能</view>
+   <view class="item">
+      <image src="../../images/user/setting2.png"></image>
+      <text>功能设置</text>
+   </view>
+   <view class="item">
+      <image src="../../images/user/about.png"></image>
+      <text>关于我们</text>
+   </view> 
+  </view>
+  <!-- 猜你喜欢 -->
+  <view class="you_like">
+    <view class="title_h3">猜你喜欢</view>
+    <view class="commodity_list">
+      <view class="item">
+        <image src="../../images/user/img1.png"></image>
+        <text>60包/16包亲爽碎花原木抽纸巾餐巾纸家用整箱</text>
+        <button>领券购买</button>
+      </view>
+
+      <view class="item">
+        <image src="../../images/user/img1.png"></image>
+        <text>60包/16包亲爽碎花原木抽纸巾餐巾纸家用整箱</text>
+        <button>领券购买</button>
+      </view>
+    </view>
+  </view>
+</view>

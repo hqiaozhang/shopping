@@ -1,0 +1,44 @@
+/* pages/home/home.wxss */
+.search,
+.nav,
+.banner {
+  width: 100%;
+}
+.search input {
+  background: #eee;
+  height: 80rpx;
+  width: 100%;
+  border-radius: 10rpx;
+  font-size: 28rpx;
+  padding-left: 10px;
+}
+.nav {
+  margin-top: 30rpx;
+  display: flex;
+  font-size: 32rpx;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav .navigator_hover {
+  font-size: 42rpx;
+  font-weight: bold;
+}
+.banner {
+  margin-top: 50rpx;
+}
+.demo-text-1,
+.demo-text-2,
+.demo-text-3{
+  width: 100%;
+  height: 100%;
+}
+.demo-text-1 {
+  background: blue;
+}
+.demo-text-2 {
+  background: green;
+}
+.demo-text-3 {
+  background: gainsboro;
+}

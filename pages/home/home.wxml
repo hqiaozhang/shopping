@@ -1,0 +1,25 @@
+<!--pages/home/home.wxml-->
+<view class="container">
+  <view class="search">
+    <input placeholder="大家都在搜：" />
+  </view>
+  <view  class="nav">
+    <navigator hover-class="navigator_hover">精选</navigator>
+    <navigator>女装</navigator>
+    <navigator>百货</navigator>
+    <navigator>男装</navigator>
+    <navigator>美妆</navigator>
+  </view>
+
+  <view class="banner swiper">
+      <swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{background}}" wx:key="*this">
+          <swiper-item>
+            <view class="swiper-item {{item}}"></view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+
+</view>
